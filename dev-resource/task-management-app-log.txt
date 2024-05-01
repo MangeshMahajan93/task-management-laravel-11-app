@@ -1,0 +1,787 @@
+
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+PS C:\xampp\htdocs> git clone https://github.com/MangeshMahajan93/task-management-laravel-11-app.git
+Cloning into 'task-management-laravel-11-app'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+PS C:\xampp\htdocs> cd task-management-laravel-11-app
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+PS C:\xampp\htdocs\task-management-laravel-11-app> composer create-project laravel/laravel task-management-laravel-11-app
+Creating a "laravel/laravel" project at "./task-management-laravel-11-app"
+Installing laravel/laravel (v11.0.6)
+  - Installing laravel/laravel (v11.0.6): Extracting archive
+Created project in C:\xampp\htdocs\task-management-laravel-11-app\task-management-laravel-11-app
+> @php -r "file_exists('.env') || copy('.env.example', '.env');"
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 111 installs, 0 updates, 0 removals
+  - Locking brick/math (0.12.1)
+  - Locking carbonphp/carbon-doctrine-types (3.2.0)
+  - Locking dflydev/dot-access-data (v3.0.2)
+  - Locking doctrine/inflector (2.0.10)
+  - Locking doctrine/lexer (3.0.1)
+  - Locking dragonmantank/cron-expression (v3.3.3)
+  - Locking egulias/email-validator (4.0.2)
+  - Locking fakerphp/faker (v1.23.1)
+  - Locking filp/whoops (2.15.4)
+  - Locking fruitcake/php-cors (v1.3.0)
+  - Locking graham-campbell/result-type (v1.1.2)
+  - Locking guzzlehttp/guzzle (7.8.1)
+  - Locking guzzlehttp/promises (2.0.2)
+  - Locking guzzlehttp/psr7 (2.6.2)
+  - Locking guzzlehttp/uri-template (v1.0.3)
+  - Locking hamcrest/hamcrest-php (v2.0.1)
+  - Locking laravel/framework (v11.6.0)
+  - Locking laravel/pint (v1.15.3)
+  - Locking laravel/prompts (v0.1.21)
+  - Locking laravel/sail (v1.29.1)
+  - Locking laravel/serializable-closure (v1.3.3)
+  - Locking laravel/tinker (v2.9.0)
+  - Locking league/commonmark (2.4.2)
+  - Locking league/config (v1.2.0)
+  - Locking league/flysystem (3.27.0)
+  - Locking league/flysystem-local (3.25.1)
+  - Locking league/mime-type-detection (1.15.0)
+  - Locking mockery/mockery (1.6.11)
+  - Locking monolog/monolog (3.6.0)
+  - Locking myclabs/deep-copy (1.11.1)
+  - Locking nesbot/carbon (3.3.0)
+  - Locking nette/schema (v1.3.0)
+  - Locking nette/utils (v4.0.4)
+  - Locking nikic/php-parser (v5.0.2)
+  - Locking nunomaduro/collision (v8.1.1)
+  - Locking nunomaduro/termwind (v2.0.1)
+  - Locking phar-io/manifest (2.0.4)
+  - Locking phar-io/version (3.2.1)
+  - Locking phpoption/phpoption (1.9.2)
+  - Locking phpunit/php-code-coverage (11.0.3)
+  - Locking phpunit/php-file-iterator (5.0.0)
+  - Locking phpunit/php-invoker (5.0.0)
+  - Locking phpunit/php-text-template (4.0.0)
+  - Locking phpunit/php-timer (7.0.0)
+  - Locking phpunit/phpunit (11.1.3)
+  - Locking psr/clock (1.0.0)
+  - Locking psr/container (2.0.2)
+  - Locking psr/event-dispatcher (1.0.0)
+  - Locking psr/http-client (1.0.3)
+  - Locking psr/http-factory (1.0.2)
+  - Locking psr/http-message (2.0)
+  - Locking psr/log (3.0.0)
+  - Locking psr/simple-cache (3.0.0)
+  - Locking psy/psysh (v0.12.3)
+  - Locking ralouphie/getallheaders (3.0.3)
+  - Locking ramsey/collection (2.0.0)
+  - Locking ramsey/uuid (4.7.6)
+  - Locking sebastian/cli-parser (3.0.1)
+  - Locking sebastian/code-unit (3.0.0)
+  - Locking sebastian/code-unit-reverse-lookup (4.0.0)
+  - Locking sebastian/comparator (6.0.0)
+  - Locking sebastian/complexity (4.0.0)
+  - Locking sebastian/diff (6.0.1)
+  - Locking sebastian/environment (7.1.0)
+  - Locking sebastian/exporter (6.0.1)
+  - Locking sebastian/global-state (7.0.1)
+  - Locking sebastian/lines-of-code (3.0.0)
+  - Locking sebastian/object-enumerator (6.0.0)
+  - Locking sebastian/object-reflector (4.0.0)
+  - Locking sebastian/recursion-context (6.0.0)
+  - Locking sebastian/type (5.0.0)
+  - Locking sebastian/version (5.0.0)
+  - Locking spatie/backtrace (1.6.1)
+  - Locking spatie/flare-client-php (1.4.4)
+  - Locking spatie/ignition (1.14.0)
+  - Locking spatie/laravel-ignition (2.6.2)
+  - Locking symfony/clock (v7.0.7)
+  - Locking symfony/console (v7.0.7)
+  - Locking symfony/css-selector (v7.0.7)
+  - Locking symfony/deprecation-contracts (v3.4.0)
+  - Locking symfony/error-handler (v7.0.7)
+  - Locking symfony/event-dispatcher (v7.0.7)
+  - Locking symfony/event-dispatcher-contracts (v3.4.2)
+  - Locking symfony/finder (v7.0.7)
+  - Locking symfony/http-foundation (v7.0.7)
+  - Locking symfony/http-kernel (v7.0.7)
+  - Locking symfony/mailer (v7.0.7)
+  - Locking symfony/mime (v7.0.7)
+  - Locking symfony/polyfill-ctype (v1.29.0)
+  - Locking symfony/polyfill-intl-grapheme (v1.29.0)
+  - Locking symfony/polyfill-intl-idn (v1.29.0)
+  - Locking symfony/polyfill-intl-normalizer (v1.29.0)
+  - Locking symfony/polyfill-mbstring (v1.29.0)
+  - Locking symfony/polyfill-php72 (v1.29.0)
+  - Locking symfony/polyfill-php80 (v1.29.0)
+  - Locking symfony/polyfill-php83 (v1.29.0)
+  - Locking symfony/polyfill-uuid (v1.29.0)
+  - Locking symfony/process (v7.0.7)
+  - Locking symfony/routing (v7.0.7)
+  - Locking symfony/service-contracts (v3.4.2)
+  - Locking symfony/string (v7.0.7)
+  - Locking symfony/translation (v7.0.7)
+  - Locking symfony/translation-contracts (v3.4.2)
+  - Locking symfony/uid (v7.0.7)
+  - Locking symfony/var-dumper (v7.0.7)
+  - Locking symfony/yaml (v7.0.7)
+  - Locking theseer/tokenizer (1.2.3)
+  - Locking tijsverkoyen/css-to-inline-styles (v2.2.7)
+  - Locking vlucas/phpdotenv (v5.6.0)
+  - Locking voku/portable-ascii (2.0.1)
+  - Locking webmozart/assert (1.11.0)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 111 installs, 0 updates, 0 removals
+  - Installing doctrine/inflector (2.0.10): Extracting archive
+  - Installing doctrine/lexer (3.0.1): Extracting archive
+  - Installing symfony/polyfill-ctype (v1.29.0): Extracting archive
+  - Installing webmozart/assert (1.11.0): Extracting archive
+  - Installing dragonmantank/cron-expression (v3.3.3): Extracting archive
+  - Installing symfony/deprecation-contracts (v3.4.0): Extracting archive
+  - Installing psr/container (2.0.2): Extracting archive
+  - Installing fakerphp/faker (v1.23.1): Extracting archive
+  - Installing symfony/polyfill-php80 (v1.29.0): Extracting archive
+  - Installing symfony/polyfill-php83 (v1.29.0): Extracting archive
+  - Installing symfony/polyfill-mbstring (v1.29.0): Extracting archive
+  - Installing symfony/http-foundation (v7.0.7): Extracting archive
+  - Installing fruitcake/php-cors (v1.3.0): Extracting archive
+  - Installing psr/http-message (2.0): Extracting archive
+  - Installing psr/http-client (1.0.3): Extracting archive
+  - Installing ralouphie/getallheaders (3.0.3): Extracting archive
+  - Installing psr/http-factory (1.0.2): Extracting archive
+  - Installing guzzlehttp/psr7 (2.6.2): Extracting archive
+  - Installing guzzlehttp/promises (2.0.2): Extracting archive
+  - Installing guzzlehttp/guzzle (7.8.1): Extracting archive
+  - Installing guzzlehttp/uri-template (v1.0.3): Extracting archive
+  - Installing laravel/pint (v1.15.3): Extracting archive
+  - Installing symfony/polyfill-intl-normalizer (v1.29.0): Extracting archive
+  - Installing symfony/polyfill-intl-grapheme (v1.29.0): Extracting archive
+  - Installing symfony/string (v7.0.7): Extracting archive
+  - Installing symfony/service-contracts (v3.4.2): Extracting archive
+  - Installing symfony/console (v7.0.7): Extracting archive
+  - Installing voku/portable-ascii (2.0.1): Extracting archive
+  - Installing phpoption/phpoption (1.9.2): Extracting archive
+  - Installing graham-campbell/result-type (v1.1.2): Extracting archive
+  - Installing vlucas/phpdotenv (v5.6.0): Extracting archive
+  - Installing symfony/css-selector (v7.0.7): Extracting archive
+  - Installing tijsverkoyen/css-to-inline-styles (v2.2.7): Extracting archive
+  - Installing symfony/var-dumper (v7.0.7): Extracting archive
+  - Installing symfony/polyfill-uuid (v1.29.0): Extracting archive
+  - Installing symfony/uid (v7.0.7): Extracting archive
+  - Installing symfony/routing (v7.0.7): Extracting archive
+  - Installing symfony/process (v7.0.7): Extracting archive
+  - Installing symfony/polyfill-php72 (v1.29.0): Extracting archive
+  - Installing symfony/polyfill-intl-idn (v1.29.0): Extracting archive
+  - Installing symfony/mime (v7.0.7): Extracting archive
+  - Installing psr/event-dispatcher (1.0.0): Extracting archive
+  - Installing symfony/event-dispatcher-contracts (v3.4.2): Extracting archive
+  - Installing symfony/event-dispatcher (v7.0.7): Extracting archive
+  - Installing psr/log (3.0.0): Extracting archive
+  - Installing egulias/email-validator (4.0.2): Extracting archive
+  - Installing symfony/mailer (v7.0.7): Extracting archive
+  - Installing symfony/error-handler (v7.0.7): Extracting archive
+  - Installing symfony/http-kernel (v7.0.7): Extracting archive
+  - Installing symfony/finder (v7.0.7): Extracting archive
+  - Installing ramsey/collection (2.0.0): Extracting archive
+  - Installing brick/math (0.12.1): Extracting archive
+  - Installing ramsey/uuid (4.7.6): Extracting archive
+  - Installing psr/simple-cache (3.0.0): Extracting archive
+  - Installing nunomaduro/termwind (v2.0.1): Extracting archive
+  - Installing symfony/translation-contracts (v3.4.2): Extracting archive
+  - Installing symfony/translation (v7.0.7): Extracting archive
+  - Installing psr/clock (1.0.0): Extracting archive
+  - Installing symfony/clock (v7.0.7): Extracting archive
+  - Installing carbonphp/carbon-doctrine-types (3.2.0): Extracting archive
+  - Installing nesbot/carbon (3.3.0): Extracting archive
+  - Installing monolog/monolog (3.6.0): Extracting archive
+  - Installing league/mime-type-detection (1.15.0): Extracting archive
+  - Installing league/flysystem (3.27.0): Extracting archive
+  - Installing league/flysystem-local (3.25.1): Extracting archive
+  - Installing nette/utils (v4.0.4): Extracting archive
+  - Installing nette/schema (v1.3.0): Extracting archive
+  - Installing dflydev/dot-access-data (v3.0.2): Extracting archive
+  - Installing league/config (v1.2.0): Extracting archive
+  - Installing league/commonmark (2.4.2): Extracting archive
+  - Installing laravel/serializable-closure (v1.3.3): Extracting archive
+  - Installing laravel/prompts (v0.1.21): Extracting archive
+  - Installing laravel/framework (v11.6.0): Extracting archive
+  - Installing symfony/yaml (v7.0.7): Extracting archive
+  - Installing laravel/sail (v1.29.1): Extracting archive
+  - Installing nikic/php-parser (v5.0.2): Extracting archive
+  - Installing psy/psysh (v0.12.3): Extracting archive
+  - Installing laravel/tinker (v2.9.0): Extracting archive
+  - Installing hamcrest/hamcrest-php (v2.0.1): Extracting archive
+  - Installing mockery/mockery (1.6.11): Extracting archive
+  - Installing filp/whoops (2.15.4): Extracting archive
+  - Installing nunomaduro/collision (v8.1.1): Extracting archive
+  - Installing sebastian/version (5.0.0): Extracting archive
+  - Installing sebastian/type (5.0.0): Extracting archive
+  - Installing sebastian/recursion-context (6.0.0): Extracting archive
+  - Installing sebastian/object-reflector (4.0.0): Extracting archive
+  - Installing sebastian/object-enumerator (6.0.0): Extracting archive
+  - Installing sebastian/global-state (7.0.1): Extracting archive
+  - Installing sebastian/exporter (6.0.1): Extracting archive
+  - Installing sebastian/environment (7.1.0): Extracting archive
+  - Installing sebastian/diff (6.0.1): Extracting archive
+  - Installing sebastian/comparator (6.0.0): Extracting archive
+  - Installing sebastian/code-unit (3.0.0): Extracting archive
+  - Installing sebastian/cli-parser (3.0.1): Extracting archive
+  - Installing phpunit/php-timer (7.0.0): Extracting archive
+  - Installing phpunit/php-text-template (4.0.0): Extracting archive
+  - Installing phpunit/php-invoker (5.0.0): Extracting archive
+  - Installing phpunit/php-file-iterator (5.0.0): Extracting archive
+  - Installing theseer/tokenizer (1.2.3): Extracting archive
+  - Installing sebastian/lines-of-code (3.0.0): Extracting archive
+  - Installing sebastian/complexity (4.0.0): Extracting archive
+  - Installing sebastian/code-unit-reverse-lookup (4.0.0): Extracting archive
+  - Installing phpunit/php-code-coverage (11.0.3): Extracting archive
+  - Installing phar-io/version (3.2.1): Extracting archive
+  - Installing phar-io/manifest (2.0.4): Extracting archive
+  - Installing myclabs/deep-copy (1.11.1): Extracting archive
+  - Installing phpunit/phpunit (11.1.3): Extracting archive
+  - Installing spatie/backtrace (1.6.1): Extracting archive
+  - Installing spatie/flare-client-php (1.4.4): Extracting archive
+  - Installing spatie/ignition (1.14.0): Extracting archive
+  - Installing spatie/laravel-ignition (2.6.2): Extracting archive
+55 package suggestions were added by new dependencies, use `composer suggest` to see details.
+Generating optimized autoload files
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover --ansi
+
+   INFO  Discovering packages.
+
+  laravel/sail ................................................................................................................................ DONE
+  laravel/tinker .............................................................................................................................. DONE
+  nesbot/carbon ............................................................................................................................... DONE
+  nunomaduro/collision ........................................................................................................................ DONE
+  nunomaduro/termwind ......................................................................................................................... DONE
+  spatie/laravel-ignition ..................................................................................................................... DONE
+
+85 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+> @php artisan vendor:publish --tag=laravel-assets --ansi --force
+
+   INFO  No publishable resources for tag [laravel-assets].
+
+No security vulnerability advisories found.
+> @php artisan key:generate --ansi
+
+   INFO  Application key set successfully.
+
+> @php -r "file_exists('database/database.sqlite') || touch('database/database.sqlite');"
+> @php artisan migrate --graceful --ansi
+
+   INFO  Preparing database.
+
+  Creating migration table ............................................................................................................. 8.39ms DONE
+
+   INFO  Running migrations.
+
+  0001_01_01_000000_create_users_table ................................................................................................ 16.79ms DONE
+  0001_01_01_000001_create_cache_table ................................................................................................. 4.38ms DONE
+  0001_01_01_000002_create_jobs_table ................................................................................................. 11.03ms DONE
+
+PS C:\xampp\htdocs\task-management-laravel-11-app>
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Then Copied inside all directory contents to main root.
+And Git generated README file renamed to README-git
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+PS C:\xampp\htdocs\task-management-laravel-11-app> git branch
+* main
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+PS C:\xampp\htdocs\task-management-laravel-11-app> git checkout -b task-management-app
+Switched to a new branch 'task-management-app'
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+PS C:\xampp\htdocs\task-management-laravel-11-app> git branch
+  main
+* task-management-app
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+PS C:\xampp\htdocs\task-management-laravel-11-app>
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Added line 
+.env.example
+in .gitignore file too.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+PS C:\xampp\htdocs\task-management-laravel-11-app> git status
+On branch task-management-app
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .editorconfig
+        .gitattributes
+        .gitignore
+        README-git.md
+        app/
+        artisan
+        bootstrap/
+        composer.json
+        composer.lock
+        config/
+        database/
+        package.json
+        phpunit.xml
+        public/
+        resources/
+        routes/
+        storage/
+        tests/
+        vite.config.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+PS C:\xampp\htdocs\task-management-laravel-11-app> git add README.md .editorconfig .gitattributes .gitignore README-git.md app/ artisan bootstrap/ composer.json composer.lock config/ database/ package.json phpunit.xml public/ resources/ routes/ storage/ tests/ vite.config.js
+warning: in the working copy of 'README-git.md', CRLF will be replaced by LF the next time Git touches it
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+PS C:\xampp\htdocs\task-management-laravel-11-app> git status
+On branch task-management-app
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .editorconfig
+        new file:   .gitattributes
+        new file:   .gitignore
+        new file:   README-git.md
+        modified:   README.md
+        new file:   app/Http/Controllers/Controller.php
+        new file:   app/Models/User.php
+        new file:   app/Providers/AppServiceProvider.php
+        new file:   artisan
+        new file:   bootstrap/app.php
+        new file:   bootstrap/cache/.gitignore
+        new file:   bootstrap/providers.php
+        new file:   composer.json
+        new file:   composer.lock
+        new file:   config/app.php
+        new file:   config/auth.php
+        new file:   config/cache.php
+        new file:   config/database.php
+        new file:   config/filesystems.php
+        new file:   config/logging.php
+        new file:   config/mail.php
+        new file:   config/queue.php
+        new file:   config/services.php
+        new file:   config/session.php
+        new file:   database/.gitignore
+        new file:   database/factories/UserFactory.php
+        new file:   database/migrations/0001_01_01_000000_create_users_table.php
+        new file:   database/migrations/0001_01_01_000001_create_cache_table.php
+        new file:   database/migrations/0001_01_01_000002_create_jobs_table.php
+        new file:   database/seeders/DatabaseSeeder.php
+        new file:   package.json
+        new file:   phpunit.xml
+        new file:   public/.htaccess
+        new file:   public/favicon.ico
+        new file:   public/index.php
+        new file:   public/robots.txt
+        new file:   resources/css/app.css
+        new file:   resources/js/app.js
+        new file:   resources/js/bootstrap.js
+        new file:   resources/views/welcome.blade.php
+        new file:   routes/console.php
+        new file:   routes/web.php
+        new file:   storage/app/.gitignore
+        new file:   storage/app/public/.gitignore
+        new file:   storage/framework/.gitignore
+        new file:   storage/framework/cache/.gitignore
+        new file:   storage/framework/cache/data/.gitignore
+        new file:   storage/framework/sessions/.gitignore
+        new file:   storage/framework/testing/.gitignore
+        new file:   storage/framework/views/.gitignore
+        new file:   storage/logs/.gitignore
+        new file:   tests/Feature/ExampleTest.php
+        new file:   tests/TestCase.php
+        new file:   tests/Unit/ExampleTest.php
+        new file:   vite.config.js
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+PS C:\xampp\htdocs\task-management-laravel-11-app> git config --global core.autocrlf true
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+PS C:\xampp\htdocs\task-management-laravel-11-app> git status
+On branch task-management-app
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .editorconfig
+        new file:   .gitattributes
+        new file:   .gitignore
+        new file:   README-git.md
+        modified:   README.md
+        new file:   app/Http/Controllers/Controller.php
+        new file:   app/Models/User.php
+        new file:   app/Providers/AppServiceProvider.php
+        new file:   artisan
+        new file:   bootstrap/app.php
+        new file:   bootstrap/cache/.gitignore
+        new file:   bootstrap/providers.php
+        new file:   composer.json
+        new file:   composer.lock
+        new file:   config/app.php
+        new file:   config/auth.php
+        new file:   config/cache.php
+        new file:   config/database.php
+        new file:   config/filesystems.php
+        new file:   config/logging.php
+        new file:   config/mail.php
+        new file:   config/queue.php
+        new file:   config/services.php
+        new file:   config/session.php
+        new file:   database/.gitignore
+        new file:   database/factories/UserFactory.php
+        new file:   database/migrations/0001_01_01_000000_create_users_table.php
+        new file:   database/migrations/0001_01_01_000001_create_cache_table.php
+        new file:   database/migrations/0001_01_01_000002_create_jobs_table.php
+        new file:   database/seeders/DatabaseSeeder.php
+        new file:   package.json
+        new file:   phpunit.xml
+        new file:   public/.htaccess
+        new file:   public/favicon.ico
+        new file:   public/index.php
+        new file:   public/robots.txt
+        new file:   resources/css/app.css
+        new file:   resources/js/app.js
+        new file:   resources/js/bootstrap.js
+        new file:   resources/views/welcome.blade.php
+        new file:   routes/console.php
+        new file:   routes/web.php
+        new file:   storage/app/.gitignore
+        new file:   storage/app/public/.gitignore
+        new file:   storage/framework/.gitignore
+        new file:   storage/framework/cache/.gitignore
+        new file:   storage/framework/cache/data/.gitignore
+        new file:   storage/framework/sessions/.gitignore
+        new file:   storage/framework/testing/.gitignore
+        new file:   storage/framework/views/.gitignore
+        new file:   storage/logs/.gitignore
+        new file:   tests/Feature/ExampleTest.php
+        new file:   tests/TestCase.php
+        new file:   tests/Unit/ExampleTest.php
+        new file:   vite.config.js
+
+PS C:\xampp\htdocs\task-management-laravel-11-app>
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+PS C:\xampp\htdocs\task-management-laravel-11-app> git branch
+  main
+* task-management-app
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+PS C:\xampp\htdocs\task-management-laravel-11-app> git commit -m "Initial Commit - Task Management App"
+[task-management-app 34c9cdd] Initial Commit - Task Management App
+ 55 files changed, 10224 insertions(+), 2 deletions(-)
+ create mode 100644 .editorconfig
+ create mode 100644 .gitattributes
+ create mode 100644 .gitignore
+ create mode 100644 README-git.md
+ create mode 100644 app/Http/Controllers/Controller.php
+ create mode 100644 app/Models/User.php
+ create mode 100644 app/Providers/AppServiceProvider.php
+ create mode 100644 artisan
+ create mode 100644 bootstrap/app.php
+ create mode 100644 bootstrap/cache/.gitignore
+ create mode 100644 bootstrap/providers.php
+ create mode 100644 composer.json
+ create mode 100644 composer.lock
+ create mode 100644 config/app.php
+ create mode 100644 config/auth.php
+ create mode 100644 config/cache.php
+ create mode 100644 config/database.php
+ create mode 100644 config/filesystems.php
+ create mode 100644 config/logging.php
+ create mode 100644 config/mail.php
+ create mode 100644 config/queue.php
+ create mode 100644 config/services.php
+ create mode 100644 config/session.php
+ create mode 100644 database/.gitignore
+ create mode 100644 database/factories/UserFactory.php
+ create mode 100644 database/migrations/0001_01_01_000000_create_users_table.php
+ create mode 100644 database/migrations/0001_01_01_000001_create_cache_table.php
+ create mode 100644 database/migrations/0001_01_01_000002_create_jobs_table.php
+ create mode 100644 database/seeders/DatabaseSeeder.php
+ create mode 100644 package.json
+ create mode 100644 phpunit.xml
+ create mode 100644 public/.htaccess
+ create mode 100644 public/favicon.ico
+ create mode 100644 public/index.php
+ create mode 100644 public/robots.txt
+ create mode 100644 resources/css/app.css
+ create mode 100644 resources/js/app.js
+ create mode 100644 resources/js/bootstrap.js
+ create mode 100644 resources/views/welcome.blade.php
+ create mode 100644 routes/console.php
+ create mode 100644 routes/web.php
+ create mode 100644 storage/app/.gitignore
+ create mode 100644 storage/app/public/.gitignore
+ create mode 100644 storage/framework/.gitignore
+ create mode 100644 storage/framework/cache/.gitignore
+ create mode 100644 storage/framework/cache/data/.gitignore
+ create mode 100644 storage/framework/sessions/.gitignore
+ create mode 100644 storage/framework/testing/.gitignore
+ create mode 100644 storage/framework/views/.gitignore
+ create mode 100644 storage/logs/.gitignore
+ create mode 100644 tests/Feature/ExampleTest.php
+ create mode 100644 tests/TestCase.php
+ create mode 100644 tests/Unit/ExampleTest.php
+ create mode 100644 vite.config.js
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+PS C:\xampp\htdocs\task-management-laravel-11-app> git push -u origin task-management-app
+Enumerating objects: 76, done.
+Counting objects: 100% (76/76), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (57/57), done.
+Writing objects: 100% (74/74), 62.87 KiB | 4.84 MiB/s, done.
+Total 74 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+remote:
+remote: Create a pull request for 'task-management-app' on GitHub by visiting:
+remote:      https://github.com/MangeshMahajan93/task-management-laravel-11-app/pull/new/task-management-app
+remote:
+To https://github.com/MangeshMahajan93/task-management-laravel-11-app.git
+ * [new branch]      task-management-app -> task-management-app
+branch 'task-management-app' set up to track 'origin/task-management-app'.
+
+PS C:\xampp\htdocs\task-management-laravel-11-app>
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Then PR Review and Merge.
+
+
+PS C:\xampp\htdocs\task-management-laravel-11-app> git status
+On branch task-management-app
+Your branch is up to date with 'origin/task-management-app'.
+
+nothing to commit, working tree clean
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+PS C:\xampp\htdocs\task-management-laravel-11-app>
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+In .env file --- database configuration updated.
+
+Like 
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=task-management-app
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+And Also created a database - 'task-management-app'
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+PS C:\xampp\htdocs\task-management-laravel-11-app> php artisan migrate
+
+   INFO  Preparing database.
+
+  Creating migration table ............................................................................................................ 11.46ms DONE
+
+   INFO  Running migrations.
+
+  0001_01_01_000000_create_users_table ................................................................................................ 38.70ms DONE
+  0001_01_01_000001_create_cache_table ................................................................................................ 10.49ms DONE
+  0001_01_01_000002_create_jobs_table ................................................................................................. 29.49ms DONE
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+RE Checked ---->
+
+PS C:\xampp\htdocs\task-management-laravel-11-app> php artisan migrate
+
+   INFO  Nothing to migrate.
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+App Running ----> 
+PS C:\xampp\htdocs\task-management-laravel-11-app> php artisan serve
+
+   INFO  Server running on [http://127.0.0.1:8000].
+
+  Press Ctrl+C to stop the server
+
+  2024-05-01 12:14:36 ............................................................................................................................... ~ 0s
+  2024-05-01 12:14:36 /favicon.ico .................................................................................................................. ~ 0s
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+PS C:\xampp\htdocs\task-management-laravel-11-app> php artisan make:migration create_tasks_table
+
+   INFO  Migration [C:\xampp\htdocs\task-management-laravel-11-app\database\migrations/2024_05_01_065732_create_tasks_table.php] created successfully.
+
+PS C:\xampp\htdocs\task-management-laravel-11-app>
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Then in newly Created Migration File - Updated Code Like :
+
+```
+    public function up(): void
+    {
+        Schema::create('tasks', function (Blueprint $table) {
+            $table->id();
+
+            // Added above 2 Lines.
+            $table->string('title');
+            $table->text('description');
+            
+            $table->timestamps();
+        });
+    }
+```
+
+And Then ---->
+PS C:\xampp\htdocs\task-management-laravel-11-app> php artisan migrate
+
+   INFO  Running migrations.
+
+  2024_05_01_065732_create_tasks_table ................................................................................................ 11.31ms DONE
+
+PS C:\xampp\htdocs\task-management-laravel-11-app>
+
+So At backend checked database has added task table and structure too.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+----> Created Controller and Model
+
+PS C:\xampp\htdocs\task-management-laravel-11-app> php artisan make:controller TaskController --resource
+
+   INFO  Controller [C:\xampp\htdocs\task-management-laravel-11-app\app\Http\Controllers\TaskController.php] created successfully.
+
+PS C:\xampp\htdocs\task-management-laravel-11-app>
+
+
+PS C:\xampp\htdocs\task-management-laravel-11-app> php artisan make:model Task
+
+   INFO  Model [C:\xampp\htdocs\task-management-laravel-11-app\app\Models\Task.php] created successfully.
+
+PS C:\xampp\htdocs\task-management-laravel-11-app>
+
+
+
+----> And Both Controller and Model Files Updated.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+----> Creating View / Templates file for UI
+With UI Structures.
+
+PS C:\xampp\htdocs\task-management-laravel-11-app> php artisan make:view layouts\app
+
+   INFO  View [C:\xampp\htdocs\task-management-laravel-11-app\resources\views\layouts\app.blade.php] created successfully.
+
+PS C:\xampp\htdocs\task-management-laravel-11-app> php artisan make:view libraries\styles
+
+   INFO  View [C:\xampp\htdocs\task-management-laravel-11-app\resources\views\libraries\styles.blade.php] created successfully.
+
+PS C:\xampp\htdocs\task-management-laravel-11-app> php artisan make:view libraries\scripts
+
+   INFO  View [C:\xampp\htdocs\task-management-laravel-11-app\resources\views\libraries\scripts.blade.php] created successfully.
+
+PS C:\xampp\htdocs\task-management-laravel-11-app> php artisan make:view pages\index
+
+   INFO  View [C:\xampp\htdocs\task-management-laravel-11-app\resources\views\pages\index.blade.php] created successfully.
+
+PS C:\xampp\htdocs\task-management-laravel-11-app> php artisan make:view pages\edit
+
+   INFO  View [C:\xampp\htdocs\task-management-laravel-11-app\resources\views\pages\edit.blade.php] created successfully.
+
+PS C:\xampp\htdocs\task-management-laravel-11-app>
+
+
+
+Each File Is Configured - Adding HTML, Bootstarp CDN Links - CSS and JS and Include files wrt structure / layout
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+IF Want to Migrate -----> NOT RECOMMENTED for PRODUCTION.
+
+If you want to run all your migrations from the beginning, including the ones that have already been run, you can use the migrate:refresh command. This command will roll back all of your migrations and then run them again. However, be cautious when using this command in a production environment as it will delete all your data.
+
+
+
+PS C:\xampp\htdocs\task-management-laravel-11-app> php artisan migrate:refresh
+
+   INFO  Rolling back migrations.
+
+  0001_01_01_000002_create_jobs_table ................................................................................................. 13.87ms DONE
+  0001_01_01_000001_create_cache_table ................................................................................................. 8.54ms DONE
+  0001_01_01_000000_create_users_table ................................................................................................ 13.80ms DONE
+
+
+   INFO  Running migrations.
+
+  0001_01_01_000000_create_users_table ................................................................................................ 37.48ms DONE
+  0001_01_01_000001_create_cache_table ................................................................................................ 10.56ms DONE
+  0001_01_01_000002_create_jobs_table ................................................................................................. 28.96ms DONE
+  2024_05_01_065732_create_tasks_table ................................................................................................ 12.54ms DONE
+
+PS C:\xampp\htdocs\task-management-laravel-11-app>
+
+
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+
+
+
+
