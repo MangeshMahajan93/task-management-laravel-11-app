@@ -765,16 +765,60 @@ PS C:\xampp\htdocs\task-management-laravel-11-app> php artisan migrate:refresh
 
 PS C:\xampp\htdocs\task-management-laravel-11-app>
 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+----> FOR API | REST API
+
+PS C:\xampp\htdocs\task-management-laravel-11-app>  php artisan install:api
+./composer.json has been updated
+Running composer update laravel/sanctum
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 1 install, 0 updates, 0 removals
+  - Locking laravel/sanctum (v4.0.2)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Nothing to install, update or remove
+Generating optimized autoload files
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover --ansi
+
+   INFO  Discovering packages.
+
+  laravel/sail ................................................................................................................................ DONE
+  laravel/sanctum ............................................................................................................................. DONE
+  laravel/tinker .............................................................................................................................. DONE
+  nesbot/carbon ............................................................................................................................... DONE
+  nunomaduro/collision ........................................................................................................................ DONE
+  nunomaduro/termwind ......................................................................................................................... DONE
+  spatie/laravel-ignition ..................................................................................................................... DONE
+
+85 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+> @php artisan vendor:publish --tag=laravel-assets --ansi --force
+
+   INFO  No publishable resources for tag [laravel-assets].
+
+No security vulnerability advisories found.
+   INFO  Published API routes file.
+
+ One new database migration has been published. Would you like to run all pending database migrations? (yes/no) [yes]:
+ > yes
+
+   INFO  Running migrations.
+
+  2024_05_02_175304_create_personal_access_tokens_table ............................................................................... 50.56ms DONE
 
 
+   INFO  API scaffolding installed. Please add the [Laravel\Sanctum\HasApiTokens] trait to your User model.
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
+PS C:\xampp\htdocs\task-management-laravel-11-app> php artisan make:controller TaskAPIController --resource
 
+   INFO  Controller [C:\xampp\htdocs\task-management-laravel-11-app\app\Http\Controllers\TaskAPIController.php] created successfully.
 
-
-
+PS C:\xampp\htdocs\task-management-laravel-11-app>
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
